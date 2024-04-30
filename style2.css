@@ -1,0 +1,115 @@
+*  {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    text-decoration: none;
+}
+
+body {
+    background-color: #20262E;
+}
+
+h1, h1 a:link, h1 a:visited {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 22px;
+    color: #913175;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#wrap   {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#header {
+    width: 980px;
+    height: 375px;
+    background: transparent url('https://64.media.tumblr.com/aed85bd353c3b2d1060e098bfbb1d4af/651074f338b852be-e4/s500x750/587f11a7c8ac906db08a6d90d48b593dd36e22bb.gif') top left no-repeat;
+    background-size: cover;
+}
+
+.nav    {
+    text-align: right;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 900px;
+    margin: 65px 0 0 25px
+}
+
+.nav a:link, .nav a:visited {
+    margin: 0 0 0 10px;
+    padding: 5px 10px 5px 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 10px;
+    color: #E9E8E8;
+    letter-spacing: 2px;
+    background-color: #CD5888;
+}
+
+.nav a:hover, .nav a:active {
+    background-color: #913175;
+}
+
+
+#main   {
+    float: left;
+    width: 900px;
+    height: auto;
+    padding: 20px 40px 20px 40px;
+    font-family: Verdana;
+    font-size: 11px;
+    color: #CD5888;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 180%;
+    background-color: #E9E8E8;
+}
+
+#main p {
+    margin: 0 0 10px 0;
+    font-family: Verdana;
+    font-size: 16px;
+    color: black;
+}
+
+
+hr, hr.break {
+    height: 1px;
+    width: 80%;
+    margin: 15px auto 15px auto;
+    color: #90918c;
+    background-color: #CD5888;
+    border: none;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.videoGrid {
+    display: grid;
+    grid-gap: 5px; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.videoContainer2 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
